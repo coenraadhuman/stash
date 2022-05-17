@@ -1,5 +1,14 @@
 site_name: Stash
 site_url: https://coenraadhuman.github.io/stash/
+site_author: Coenraad Human
+site_description: >-
+  Stash is a personal storage chest. Its main purpose is to store items.
+  In this case anything I might find interesting in the computer world.
+
+repo_name: coenraadhuman/stash
+repo_url: https://github.com/coenraadhuman/stash
+
+
 theme:
   name: material
   palette: 
@@ -11,7 +20,9 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
+
 nav:
-    - Home: index.md
-    - Test: test.md
-    - Test2: test/test.md
+    - Java: 
+      - 'Comparing Objects': java/comparing-objects/comparing-objects.md
+      - 'Comparing Objects': java/immutable-objects/immutable-objects.md
+    - About: about/about.md

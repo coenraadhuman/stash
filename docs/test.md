@@ -1,3 +1,0 @@
-This is a test...
-
-![image.jpg](./test/image.jpg)
